@@ -1,5 +1,5 @@
 <?php
-namespace MohammedAlbalaawi\WeightConversions;
+
 
 use MohammedAlbalaawi\WeightConversions\WeightConversionsClass;
 
