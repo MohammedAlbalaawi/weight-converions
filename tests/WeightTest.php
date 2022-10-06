@@ -1,9 +1,9 @@
 <?php
 
 
-use MohammedAlbalaawi\WeightConversions\WeightConversionsClass;
+use MohammedAlbalaawi\WeightConversions\Weight;
 
 it('can convert kilograms to pounds correctly', function () {
-    $pounds = WeightConversionsClass::kilograms(100)->toPounds();
+    $pounds = Weight::kilograms(100)->toPounds();
     expect($pounds)->toEqual(220.46);
 });
